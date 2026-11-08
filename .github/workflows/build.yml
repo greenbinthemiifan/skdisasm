@@ -21,4 +21,7 @@ jobs:
      
       - name: Check assembler files
         run: |
-          ls -l build_tools/Linux-x86_64/        
+          ls -l build_tools/Linux-x86_64/  
+
+       - name: Build Sonic 3
+        run: lua5.3 buildS3.lua
