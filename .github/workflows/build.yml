@@ -18,3 +18,7 @@ jobs:
 
       - name: Check Lua version
         run: lua5.3 -v
+     
+      - name: Check assembler files
+        run: |
+          ls -l build_tools/Linux-x86_64/        
